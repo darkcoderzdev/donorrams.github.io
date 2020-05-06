@@ -1,330 +1,434 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>DonorRams - Happiness comes from Donation</title>
-	<meta name="description" content="Donate survival Food, Clothes to DonorRams to become a part of Poor Families. Donate some penny to us by installing it on Playstore">
-	<meta name="keywords" content="donorrams, Donorrams,DonorRams,Donate Food, donate cloth, donate blood">
-	<meta name="author" content="Dark Coderz">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="img/favicon.png" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>App Landing Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298519-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+   </head>
 
-		gtag('config', 'UA-165298519-1');
-	</script>
+   <body>
+       
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
 
+    <header>
+        <!-- Header Start -->
+       <div class="header-area header-transparrent ">
+            <div class="main-header header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-2">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.png" width="50" style="margin-top: 5px;" alt="" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-10">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">    
+                                        <li class="active"><a href="index.html"> Home</a></li>
+                                        <li><a href="#features">Features</a></li>
+                                        <li><a href="#working">Working</a></li>
+                                        <li><a href="#overview">Overview</a></li>
+                                        <li><a href="#team">Team</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
 
-</head>
+    <main>
 
-<style type="text/css">
-	body
-	{
-		background-color: #EEEEEE;
-		font-family: 'Roboto', sans-serif;
-	}
-	.mainContent
-	{
-		background-color: #ffffff;
-		padding: 15px;
-	}
-	.logotitle
-	{
-		vertical-align: top;
-		font-size: 20px;
-		color: #6F6F6F;
-		margin-top: -10px;
-	}
-	/* xs */
-	.logoimg {
-		width: 60px;
-		height: 60px;
-		float: left;
-		margin-right: 10px;
-	}
-	.devtitle
-	{
-		color: #689f38;
-		font-size: 13px;
-	}
-	#download
-	{
-		background-color: #689f38;
-		color: #ffffff;
-		width: 100%;
-		outline: none;
-		height: 40px;
-		border: none;
-	}
+        <!-- Slider Area Start-->
+        <div class="slider-area" id="features">
+            <div class="slider-active">
+                <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-6 col-md-9 ">
+                                <div class="hero__caption">
+                                    <span data-animation="fadeInUp" data-delay=".4s">DonorRams</span>
+                                    <span data-animation="fadeInUp" data-delay=".4s">Latest version </span><span></span> <span data-animation="fadeInUp" data-delay=".4s">1.0.10</span>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Happiness comes<br>from Donations</h1>
+                                    <p data-animation="fadeInUp" data-delay=".8s">Donate survival Foods, Clothes Blood and your Attiyaat to DonorRams to become a part of Poor Families.</p>
+                                    <!-- Slider btn -->
+                                   <div class="slider-btns">
+                                        <!-- Hero-btn -->
+                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="https://docs.google.com/uc?export=download&id=1zzl4PxvaFcHD1eAMajGmbW8xuh7CQUfP" id="download" class="btn radius-btn">Download</a>
 
-	/* Ripple effect */
-	#download {
-		background-position: center;
-		transition: background 0.8s;
-	}
-	#download:hover {
-		background: #33691E radial-gradient(circle, transparent 1%, #33691E 1%) center/15000%;
-	}
-	#download:active {
-		background-color: #689f38;
-		background-size: 100%;
-		transition: background 0s;
-	}
+                                        <!-- Video Btn -->
+                                        <a data-animation="fadeInRight" data-delay="1.0s" class="popup-video video-btn ani-btn" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><i class="fas fa-play"></i></a>
+                                   </div>
 
-	/* sm */
-	@media (min-width: 768px) {
-		.logoimg {
-			width: 80px;
-			height: 80px;
-		}
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero__img d-none d-lg-block f-right" data-animation="fadeInRight" data-delay="1s">
+                                    <img src="img/screenshots/banner-hero.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="single-slider slider-height slider-padding sky-blue d-flex align-items-center">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-6 col-md-9 ">
+                                <div class="hero__caption">
+                                    <span data-animation="fadeInUp" data-delay=".4s">DonorRams</span>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Happiness comes<br>from Donations</h1>
+                                    <p data-animation="fadeInUp" data-delay=".8s">Donate survival Foods, Clothes Blood and your Attiyaat to DonorRams to become a part of Poor Families.</p>
+                                    <!-- Slider btn -->
+                                   <div class="slider-btns">
+                                        <!-- Hero-btn -->
+                                        <a data-animation="fadeInLeft" data-delay="1.0s" id="download" href="https://docs.google.com/uc?export=download&id=1zzl4PxvaFcHD1eAMajGmbW8xuh7CQUfP" class="btn radius-btn">Download</a>
+                                        <!-- Video Btn -->
+                                        <a data-animation="fadeInRight" data-delay="1.0s" class="popup-video video-btn ani-btn" href="https://www.youtube.com/watch?v=RJA14fRzPWw"><i class="fas fa-play"></i></a>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero__img d-none d-lg-block f-right" data-animation="fadeInRight" data-delay="1s">
+                                    <img src="img/screenshots/banner-hero.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Slider Area End -->
+        <!-- Best Features Start -->
+        <section class="best-features-area section-padd4">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-xl-8 col-lg-10">
+                        <!-- Section Tittle -->
+                        <div class="row">
+                            <div class="col-lg-10 col-md-10">
+                                <div class="section-tittle">
+                                    <h2>DonorRams gives you reason to choose it!</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Section caption -->
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Donation</h3>
+                                        <p>Donate survival foods, clothes and blood.</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Find Donor</h3>
+                                        <p>Find blood donor in your tough time.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Track Donations</h3>
+                                        <p>Track your donations in realtime.</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Attiyaat</h3>
+                                        <p>Donate money if you live outside from city.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Shpe -->
+            <div class="features-shpae d-none d-lg-block">
+                <img src="img/screenshots/features.png" alt="">
+            </div>
+        </section>
+        <!-- Best Features End -->
+        <!-- Services Area Start -->
+        <section class="service-area sky-blue section-padding2">
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-tittle text-center">
+                            <h2>How We Help Poor's<br>with DonorRams!</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section caption -->
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <span class="flaticon-businessman"></span>
+                            </div> 
+                            <div class="service-cap">
+                                <h4><a href="#">Donations</a></h4>
+                                <p>People's like you submit donations and their attiyat to us.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-caption active text-center mb-30">
+                            <div class="service-icon">
+                                <span class="flaticon-pay"></span>
+                            </div> 
+                            <div class="service-cap">
+                                <h4><a href="#">Picking Up</a></h4>
+                                <p>Our rider's pick donations like foods, clothes from donor.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <span class="flaticon-plane"></span>
+                            </div> 
+                            <div class="service-cap">
+                                <h4><a href="#">Help Poor's</a></h4>
+                                <p>We find poor and needy who deserve's it most then donate the donation to them</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Area End -->
+        <!-- Applic App Start -->
+        <div class="applic-apps section-padding2">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- slider Heading -->
+                    <div class="col-xl-4 col-lg-4 col-md-8">
+                        <div class="single-cases-info mb-30">
+                            <h3>Overview of<br> DonorRams</h3>
+                            <p>Donate survival Food, Clothes to DonorRams to become a part of Poor Families. Donate some penny to us by installing. </p>
+                        </div>
+                    </div>
+                    <!-- OwL -->
+                    <div class="col-xl-8 col-lg-8 col-md-col-md-7">
+                        <div class="app-active owl-carousel"> 
+                            <div class="single-cases-img">
+                                <img src="img/screenshots/1.png" alt="">
+                            </div>
+                            <div class="single-cases-img">
+                                <img src="img/screenshots/2.png" alt="">
+                            </div>
+                            <div class="single-cases-img">
+                                <img src="img/screenshots/3.png" alt="">
+                            </div>
+                            <div class="single-cases-img">
+                                <img src="img/screenshots/4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Applic App End -->
+        <!-- Best Pricing Start -->
+        <!-- Pricing Card End -->
+        <!-- Our Customer Start -->
+        <div class="our-customer">
+            <div class="container-fluid">
+            <div class="our-customer-wrapper">
+                    <!-- Section Tittle -->
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="section-tittle text-center">
+                                <h2>DonorRams<br> Team</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="customar-active dot-style d-flex dot-style">
+                                <div class="single-customer mb-100">
+                                	<center>
+                                    <div class="what-img">
+                                        <img src="img/developer.jpg" alt="">
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4><a href="#">Muhammad Usama</a></h4>
+                                        <p>Developer</p>
+                                    </div>
+                                </center>
+                                </div>
+                            
+                                <div class="single-customer mb-100">
+                            
+                                    <center>
+                                    <div class="what-img">
+                                        <img src="img/faraz.jpg" alt="">
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4><a href="#">Muhammad Faraz</a></h4>
+                                        <p>Manager</p>
+                                    </div>
+                                </center>
 
-		.logotitle
-		{
-			font-size: 25px;
-		}
-	}
-	/* md */
-	@media (min-width: 992px) {
-		.logoimg {
-			width: 100px;
-			height: 100px;
-		}
-		.logotitle
-		{
-			font-size: 25px;
-		}
-	}
-	/* lg */
-	@media (min-width: 1200px) {
-		.logoimg {
-			width: 120px;
-			height: 120px;
-		}
-		.logotitle
-		{
-			font-size: 30px;
-		}
-	}
-	html {
-		overflow:   scroll;
-	}
-	::-webkit-scrollbar {
-		width: 0px;
-		background: transparent; /* make scrollbar transparent */
-	}
-</style>
-<body>
+                                </div>
+                            
+                                <div class="single-customer mb-100">
+                                    <center>
+                                    <div class="what-img">
+                                        <img src="img/umer.jpg" alt="">
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4><a href="#">Muhammad Umer</a></h4>
+                                        <p>Advertiser</p>
+                                    </div>
+                                </center>
+                                </div>
+                            
+                                <div class="single-customer mb-100">
+                                    <center>
+                                    <div class="what-img">
+                                        <img src="img/developer.jpg" alt="">
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4><a href="#">Muhammad Usama</a></h4>
+                                        <p>Founder</p>
+                                    </div>
+                                </center>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>           
+        <!-- Our Customer End -->
+        <!-- Available App  Start-->
+        
+        <!-- Available App End-->
+        <!-- Say Something Start -->
+        
+        <!-- Say Something End -->
+     
+    </main>
 
-	<div class="container mt-1">
+    <footer style="background-color: #494446;padding-top: 20px;padding-bottom: 20px;">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6 col-sm-6 col-6">
+    				<h5 style="color: white">About DonorRams</h5>
+    				<span style="color: #f5f5f5;font-size: 12px;">Our main aim to help poor and needy peoples who don't even afford one time meal a day. Donate survival Food, Clothes to DonorRams to become a part of Poor Families. Donate some penny to us by installing.</span>
+    			</div>
+    			<div class="col-md-6 col-sm-6 col-6">
 
-		<div class="row">
+    				<h5 style="color: white">Contact us</h5>
 
-			<div class="col-md-1 col-sm-0 col-lg-2"></div>
+    				<ul style="color: #f5f5f5;font-size: 12px">
+    					<li>+92 304 8974195</li>
+    					<li><a href="mailto: donorrams@gmail.com" style="color: #f5f5f5">donorrams@gmail.com</a></li>
+    					<li>Jhleum, Punjab Pakistan</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+   
+   
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
 
-			<div class="col-md-10 col-sm-12 col-lg-8 shadow-sm p-3 mb-5 bg-white rounded mainContent">
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
 
-				<div class="box">
-					<img src="img/DonorRams.png" class="rounded logoimg" alt="datafinder logo" class="img-fluid" width="120px" height="120px">
-					<h1 class="logotitle"><span>DonorRams</span></h1>
-					<p class="devtitle">Dark Coderz</p>
-				</div>
-
-				<br>
-				<div style="display: flex;overflow: auto;
-				white-space: nowrap;color: gray;font-weight: 300;">
-				<span class="mr-3"><i class="fas fa-star-half-alt"></i> 4.2</span>
-				<span class="mr-3"><i class="far fa-folder"></i> 21MB</span>
-				<span class="mr-3"><i class="fas fa-download"></i> 500+</span>
-				<span class="mr-3 getVersion"><i class="fas fa-code-branch"></i> 1.0.10</span>
-			</div>
-
-
-			<br>
-			<div>
-
-				<a href="https://docs.google.com/uc?export=download&id=1zzl4PxvaFcHD1eAMajGmbW8xuh7CQUfP" style="text-decoration: none"><input id="download" value="Install" type="button" class="installbtn rounded"/></a>
-				
-			</div>
-			<br>
-
-			<div>
-				<span style="white-space: pre-line">What's new </span>
-				<span style="font-size: 10px;color: gray;">(Last updated May 04, 2020)</span>
-				<br>
-				<span style="font-weight: 300;font-size:14px;color: #6C6C6C">-Auto-update function added</span>
-				<br>
-				<span style="font-weight: 300;font-size:14px;color: #6C6C6C">-Fix unknown Bugs</span>
-				<br>
-				<span style="font-weight: 300;font-size:14px;color: #6C6C6C">-Improve UI</span>
-				
-			</div>
-			<br>
-			<hr>
-			<br>
-
-			<div style="display: flex;overflow: auto;
-			white-space: nowrap;">
-
-			<img src="img/DonorRams_Dashboard.png" alt="donorRams" class="img-fluid" style="height: 400px;margin-left: 15px;">
-			<img src="img/DonorRams_Donations.png" alt="donorRams" class="img-fluid" style="height: 400px;margin-left: 15px;">
-			<img src="img/DonorRams_Track_Donation.png" alt="donorRams" class="img-fluid" style="height: 400px;margin-left: 15px;">
-			
-		</div>
-
-
-		<br><br>
-		<div style="color: #6C6C6C;font-weight:300">
-			<h4>About this app:</h4>
-			<p>
-				DonorRams is a private nonprofit organization whose main motto  is to help poor and deserving peoples who can't afford even one meal in a day.<br>
-			</p>
-
-			<div class="more-cont" style="display: none;">
-				Our main purpose is to overcome food/cloth wastage which is very common now-a-days. Kindly participate in this program.
-				<br>
-				<p>Recently, we're working in selective cities. InshaAllah we will launch this service in all over the Pakistan soon.</p>
-			</div>
-			<br>
-			<center><a style="cursor: pointer;color: #6D935E;font-weight:500" class="more">READ MORE</a></center>
-
-		</div>
-		<br><hr><br>
-
-		<div>
-			<div class="row">
-				<div class="col-md-4 col-lg-4 col-sm-4 col-4">
-					<!-- First Section -->
-
-					<!-- Update -->
-					<span style="font-size: 15px;">
-						Updated
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						May 04, 2020
-					</span>
-
-					<br><br>
-
-					<!-- Current Version -->
-					<span style="font-size: 15px;">
-						Current Version
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						1.0.10
-					</span>
-					<br><br>
-
-					<!-- Developers -->
-					<span style="font-size: 15px;">
-						Developer
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;">
-						<a href="mailto:datafinderservice@gmail.com" style="color: green">donorrams@gmail.com</a>
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;">
-						<a href="https://api.whatsapp.com/send?phone=+923465987599" style="color: green">0346-5987599</a>
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						Punjab, Pakistan
-					</span>
-
-				</div>
-				<div class="col-md-4 col-lg-4 col-sm-4 col-4">
-					
-					<!-- Second Section -->
-
-					<!-- Size -->
-					<span style="font-size: 15px;">
-						Size
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						21M
-					</span>
-
-					<br><br>
-
-					<!-- Requires Android -->
-					<span style="font-size: 15px;">
-						Requires Android
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						5.0 and up
-					</span>
-
-				</div>
-				<div class="col-md-4 col-lg-4 col-sm-4 col-4">
-					
-					<!-- Third Section -->
-
-					<!-- Installs -->
-					<span style="font-size: 15px;">
-						Intsalls
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						500+
-					</span>
-
-					<br><br>
-
-					<!-- Offered By -->
-					<span style="font-size: 15px;">
-						Offered By
-					</span>
-					<br>
-					<span style="font-weight: 300;font-size: 14px;color: #6C6C6C">
-						Dark Coderz
-					</span>
-
-				</div>
-			</div>
-		</div>
-
-
-
-	</div>
-
-
-
-	<div class="col-md-1 col-sm-0 col-lg-2"></div>
-
-</div>
-
-</div>
-
-<script>
-
-	$('#download').one('click', function() {
-		$(this).attr('disabled',true);
-		$(this).val("Downloading...");
-	});
-
-	$('.more').click(function() {
-		$(".more-cont").slideToggle();
-		$(this).html($(this).html()=='COLLAPSE'?'READ MORE':'COLLAPSE');
-	});
-
-</script>
-</body>
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+    </body>
 </html>
